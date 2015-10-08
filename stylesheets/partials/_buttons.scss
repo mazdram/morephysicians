@@ -3,8 +3,130 @@
   width: 200px;
   padding: 8px;
   color: $gold;
-  border: 1px solid #fff;
+  border: 1px solid $gold;
+  text-align: center;
+  outline: none; 
+  text-decoration: none;
+  transition: background-color 0.2s ease-out,
+              color 0.2s ease-out;
+
+	  &:hover, &:active {
+	  	background-color: #fff;
+	  	color: #000;
+	  	transition: background-color 0.3s ease-in,
+              color 0.3s ease-in;
+	  }
+}
+
+.ghost-button-rounded {
+  display: inline-block;
+  width: 200px;
+  padding: 8px;
+  color: $gold;
+  border: 1px solid $gold;
+  border-radius: 5px;
   text-align: center;
   outline: none;
   text-decoration: none;
-} 
+  transition: background-color 0.2s ease-out,
+              color 0.2s ease-out;
+
+	  &:hover, &:active {
+		  	background-color: #fff;
+		  	color: #000;
+		  	transition: background-color 0.3s ease-in,
+              color 0.3s ease-in;
+		  }
+}
+
+
+.ghost-button-thick {
+  display: inline-block;
+  width: 200px;
+  padding: 8px;
+  color: $gold;
+  border: 3px solid $gold;
+  text-align: center;
+  outline: none; 
+  text-decoration: none;
+  transition: background-color 0.2s ease-out,
+              color 0.2s ease-out;
+
+	  &:hover, &:active {
+	  	background-color: #fff;
+	  	color: #000;
+	  	transition: background-color 0.3s ease-in,
+              color 0.3s ease-in;
+	  }
+}
+
+
+.ghost-button-full-color {
+  display: inline-block;
+  width: 200px;
+  padding: 8px;
+  color: $gold;
+  background-color: transparent;
+  border: 2px solid $gold;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  transition: color 0.3s ease-out,
+              background-color 0.3s ease-out,
+              border-color 0.3s ease-out;
+
+        &:hover, &:active {
+	  	background-color: $gold;
+		  border-color: $gold-darker;
+		  color: #fff;
+		  transition: color 0.3s ease-in,
+              background-color 0.3s ease-in,
+              border-color 0.3s ease-in;
+	  }      
+}
+
+
+
+
+
+
+.ghost-button-size-transition {
+  display: inline-block;
+  width: 200px;
+  height: 25px;
+  line-height: 25px;
+  margin: 0 auto;
+  padding: 8px;
+  color: $gold;
+  border: 2px solid $gold;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  transition: width 0.3s ease-out,
+              height 0.3s ease-out,
+              line-height 0.3s ease-out;
+
+	    &:hover, &:active {
+		  	width: 220px;
+			height: 45px;
+			line-height: 45px;
+  			transition: width 0.1s ease-in,
+            height 0.1s ease-in,
+            line-height 0.1s ease-in;
+		  }          
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

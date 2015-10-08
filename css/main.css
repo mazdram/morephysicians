@@ -1,9 +1,84 @@
+/*--------------------------------------------------------------*/
+/*--------------------------------------------------------------*/
+/*--------------------------------------------------------------*/
 .ghost-button {
   display: inline-block;
   width: 200px;
   padding: 8px;
   color: #f1b82d;
-  border: 1px solid #fff;
+  border: 1px solid #f1b82d;
   text-align: center;
   outline: none;
-  text-decoration: none; }
+  text-decoration: none;
+  transition: background-color 0.2s ease-out, color 0.2s ease-out; }
+  .ghost-button:hover, .ghost-button:active {
+    background-color: #fff;
+    color: #000;
+    transition: background-color 0.3s ease-in, color 0.3s ease-in; }
+
+.ghost-button-rounded {
+  display: inline-block;
+  width: 200px;
+  padding: 8px;
+  color: #f1b82d;
+  border: 1px solid #f1b82d;
+  border-radius: 5px;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  transition: background-color 0.2s ease-out, color 0.2s ease-out; }
+  .ghost-button-rounded:hover, .ghost-button-rounded:active {
+    background-color: #fff;
+    color: #000;
+    transition: background-color 0.3s ease-in, color 0.3s ease-in; }
+
+.ghost-button-thick {
+  display: inline-block;
+  width: 200px;
+  padding: 8px;
+  color: #f1b82d;
+  border: 3px solid #f1b82d;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  transition: background-color 0.2s ease-out, color 0.2s ease-out; }
+  .ghost-button-thick:hover, .ghost-button-thick:active {
+    background-color: #fff;
+    color: #000;
+    transition: background-color 0.3s ease-in, color 0.3s ease-in; }
+
+.ghost-button-full-color {
+  display: inline-block;
+  width: 200px;
+  padding: 8px;
+  color: #f1b82d;
+  background-color: transparent;
+  border: 2px solid #f1b82d;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  transition: color 0.3s ease-out, background-color 0.3s ease-out, border-color 0.3s ease-out; }
+  .ghost-button-full-color:hover, .ghost-button-full-color:active {
+    background-color: #f1b82d;
+    border-color: #ad7e0b;
+    color: #fff;
+    transition: color 0.3s ease-in, background-color 0.3s ease-in, border-color 0.3s ease-in; }
+
+.ghost-button-size-transition {
+  display: inline-block;
+  width: 200px;
+  height: 25px;
+  line-height: 25px;
+  margin: 0 auto;
+  padding: 8px;
+  color: #f1b82d;
+  border: 2px solid #f1b82d;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  transition: width 0.3s ease-out, height 0.3s ease-out, line-height 0.3s ease-out; }
+  .ghost-button-size-transition:hover, .ghost-button-size-transition:active {
+    width: 220px;
+    height: 45px;
+    line-height: 45px;
+    transition: width 0.1s ease-in, height 0.1s ease-in, line-height 0.1s ease-in; }
