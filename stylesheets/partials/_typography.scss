@@ -1,0 +1,118 @@
+/*! Typebase.less v0.1.0 | MIT License */
+@font-face {
+  font-family: 'Proxima Nova';
+  src:  url('../assets/fonts/proximanova-regular-webfont.woff2') format('woff2'),
+        url('../assets/fonts/proximanova-regular-webfont.woff') format('woff');
+}
+ 
+@font-face {
+  font-family: 'Proxima Nova Light';
+  src:  url('../assets/fonts/proximanova-light-webfont.woff2') format('woff2'),
+        url('../assets/fonts/proximanova-light-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Proxima Nova Bold';
+  src:  url('../assets/fonts/proximanova-bold-webfont.woff2') format('woff2'),
+        url('../assets/fonts/proximanova-bold-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Proxima Nova Thin';
+  src:  url('../assets/fonts/proximanova-thin-webfont.woff2') format('woff2'),
+        url('../assets/fonts/proximanova-thin-webfont.woff') format('woff');
+}
+ 
+/* Setup */
+html {
+  /* Change default typefaces here */
+  font-family: $sans-serif;
+  font-size: 137%;
+  -webkit-font-smoothing: antialiased;
+}
+body {
+  color: $text-color; 
+} 
+/* Copy & Lists */
+p {
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+ul li,
+ol li {
+  line-height: 1.5rem;
+}
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+blockquote {
+  font-family: $serif;
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* Change heading typefaces here */
+  font-family: $sans-serif-thin;
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+  line-height: 1.5rem;
+}
+h1 {
+  font-size: 3.5rem;
+  line-height: 4rem;
+  margin-top: 3rem;
+}
+h2 {
+  font-size: 2.828rem;
+  line-height: 3rem;
+  margin-top: 3rem;
+}
+h3 {
+  font-size: 1.414rem;
+}
+h4 {
+  font-size: 0.707rem;
+}
+h5 {
+  font-size: 0.4713333333333333rem;
+}
+h6 {
+  font-size: 0.3535rem;
+}
+/* Tables */
+table {
+  margin-top: 1.5rem;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+table td,
+table th {
+  padding: 0;
+  line-height: 33px;
+}
+
+/* Leading paragraph text */
+.lead {
+  font-size: 1.414rem;
+}
+/* Hug the block above you */
+.hug {
+  margin-top: 0;
+}
