@@ -1,8 +1,19 @@
+html {
+  /* Change default typefaces here */
+  font-family: $sans-serif;
+  font-size: 127%;
+  -webkit-font-smoothing: antialiased;
+}
+body {
+  color: $text-color;
+  margin:0px; 
+} 
+
 .content {
 	padding-bottom:2rem;
 }
 
-
+/* Link style */
 a {
 	color: $text-color;
 	text-decoration: underline;
@@ -10,13 +21,6 @@ a {
 		text-decoration: none;
 	}
 }
-
-
-
-
-
-
-
 
 .hero {
     text-align: center;
@@ -28,5 +32,18 @@ a {
     h2 {
     	color:#fff;
     	margin-top: 1rem;
+
     }
 }
+
+.stream-container {
+    width:100%;
+    display: block;
+    margin:auto;
+    margin-bottom: 2rem;
+    .stream {
+        width:100%;
+    }
+}
+
+

@@ -1,3 +1,7 @@
+#hero-button {
+  margin-top:35px;
+}
+
 .ghost-button {
   display: inline-block;
   width: 200px;
@@ -12,6 +16,7 @@
 
 	  &:hover, &:active {
 	  	background-color: $gold;
+      border: 1px solid $gold-darker;
 	  	color: #000;
 	  	transition: background-color 0.3s ease-in,
               color 0.3s ease-in;

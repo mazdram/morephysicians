@@ -4,7 +4,7 @@
   src:  url('../assets/fonts/proximanova-regular-webfont.woff2') format('woff2'),
         url('../assets/fonts/proximanova-regular-webfont.woff') format('woff');
 }
- 
+  
 @font-face {
   font-family: 'Proxima Nova Light';
   src:  url('../assets/fonts/proximanova-light-webfont.woff2') format('woff2'),
@@ -24,21 +24,18 @@
 }
  
 /* Setup */
-html {
-  /* Change default typefaces here */
-  font-family: $sans-serif;
-  font-size: 137%;
-  -webkit-font-smoothing: antialiased;
-}
-body {
-  color: $text-color; 
-} 
 /* Copy & Lists */
 p {
-  line-height: 1.5rem;
-  margin-top: 1.5rem;
+  line-height: 1.5rem; 
+  margin-top: 1rem;
   margin-bottom: 0;
+  font-size:18px;
 }
+b,
+strong {
+  font-weight: bold;
+}
+
 ul,
 ol {
   margin-top: 1.5rem;
@@ -61,7 +58,7 @@ blockquote {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
-/* Headings */
+/* Headings */ 
 h1,
 h2,
 h3,
@@ -96,6 +93,30 @@ h5 {
 h6 {
   font-size: 0.3535rem;
 }
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+small {
+  font-size: 80%;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
 /* Tables */
 table {
   margin-top: 1.5rem;

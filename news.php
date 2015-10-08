@@ -1,12 +1,53 @@
+
 <!DOCTYPE html>
-<html>
+<html class="no-js">
 <head>
-<meta charset="UTF-8">
-<title>Class Expansion and Springfield Clinical Campus</title>
-<link href="css/main.css" media="all" rel="stylesheet"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>Springfield Clinical Campus</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+    <!--[if (gt IE 8) | (IEMobile)]><!-->
+    <link rel="stylesheet" href="css/main.css">
+    <!--<![endif]-->
+    <!--[if (lt IE 9) & (!IEMobile)]>
+    <link rel="stylesheet" href="css/ie.css">
+    <![endif]-->
 </head>
 <body>
-
+   <div id="outer-wrap">
+<div id="inner-wrap">
+    <header id="top" role="banner">
+        <div class="block">
+            <a class="nav-btn" id="nav-open-btn" href="#nav">Book Navigation</a>
+        </div>
+    </header>
+    <nav id="nav" role="navigation">
+        <div class="block">
+            <h2 class="block-title">Chapters</h2>
+            <ul>
+                <li>
+               <a href="/morephysicians/">Home</a>
+                </li><!--
+             --><li>
+                    <a href="construction.php">Construction Live View</a>
+                </li><!--
+             --><li class="is-active">
+                    <a href="news.php">News</a>
+                </li><!--
+             --><li>
+                    <a href="fast-facts.php">Fast Facts/FAQ</a>
+                </li>
+            </ul>
+            <a class="close-btn" id="nav-close-btn" href="#top">Return to Content</a>
+        </div>
+    </nav>
+<body>
+<div class="row content">
+<div class="twelve columns">
 
 
 <article class="news">  
@@ -75,7 +116,7 @@
 
 
 
-
+</div></div>
 <?php include("footer.php"); ?>
 </body>
 </html>
