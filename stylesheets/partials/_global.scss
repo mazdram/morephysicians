@@ -1,0 +1,32 @@
+.content {
+	padding-bottom:2rem;
+}
+
+
+a {
+	color: $text-color;
+	text-decoration: underline;
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+
+
+
+
+
+
+
+.hero {
+    text-align: center;
+    background-color: gray;
+    padding: 75px 0;
+    background: url("../images/hero-img.jpg") no-repeat top center;
+    background-size: cover;
+
+    h2 {
+    	color:#fff;
+    	margin-top: 1rem;
+    }
+}

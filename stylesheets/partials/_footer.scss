@@ -1,0 +1,18 @@
+
+.split-banner {
+	background-color: #212933;
+    background: url("../images/split-banner.jpg") no-repeat top center;
+    border-top: 2px solid #ad7e0b;
+    height: 280px;
+    position: relative;
+	}
+
+footer {
+	background-color:$gold;
+	padding:40px 0;
+
+	p {
+	font-size:14px;
+	line-height:24px;
+	}
+}
