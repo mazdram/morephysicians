@@ -2,17 +2,47 @@
 .split-banner {
     background: url("../images/split-banner.jpg") no-repeat top center;
     background-color: #212933;
-    border-top: 2px solid #ad7e0b;
+    border-top: 2px solid $gold;
     height: 280px;
     position: relative;
 	}
 
 footer {
-	background-color:$gold;
+	background-color:$grey-darker;
 	padding:40px 0;
+	border-top: 2px solid $gold;
 
-	p {
+		p, a {
+		font-size:17px;
+		text-decoration: none;
+		line-height:24px;
+		color:$grey-lighter;
+		}
+
+		ul, li {
+		font-size:17px;
+		display:inline-block;
+		line-height:27px;
+		padding:0px;
+		list-style: none;
+		margin-top: 0.5rem;
+		margin-bottom: 0.5rem;
+		color:$grey-lighter;
+		a:hover {
+			color:$gold;
+		}
+		}
+
+		h3 { 
+
+		color:$gold;
+		margin-top:0px;
+
+	}	
+}
+
+#disclaimer {
 	font-size:14px;
-	line-height:24px;
-	}
+
+
 }

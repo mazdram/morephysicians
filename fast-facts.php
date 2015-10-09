@@ -50,7 +50,40 @@
 <div class="twelve columns">
 
 
-<h1>Fast Facts About the MU School of Medicine Class Expansion</h1>
+<h1>Fast Facts & FAQ</h1> 
+</div></div>
+<div class="gold-bg">  
+<h2>About the MU School of Medicine Class Expansion</h2>      
+<p>The project will provide more than <b>300</b> additional physicians for Missouri.</p>
+            <p>The project will add more than <b>$390 million</b> annually to the state’s economy.</p>
+            <p>The project will create <b>3,500</b> new jobs.</p>
+            <p>Starting in June 2016, eight to 12 MU medical students will complete their last two years of training in Springfield.</p>
+            <p>Thirty-two additional medical students will be admitted to MU every year, starting in August 2017, as a result of the expansion.</p>
+            <p>The medical education expansion will cost approximately <b>$42.5 million</b>.</p>
+            <p>The total estimated annual funding for operations, including faculty and staff salaries, training materials and education resources, is <b>$10 million</b>.</p>
+        </div>
+         <div class="dark-bg"> 
+         <h2>The Patient-Centered Care Learning Center</h2>
+         
+            <p><span class="gold">Expansion</span> will be 97,088 square feet</p>
+            <p>30,400 square feet for <span class="gold">Patient-Based Learning (PBL) labs</span></p>
+            <p>23,700 square feet for <span class="gold">offices and support space</span></p>
+            <p>15,200 square feet for a <span class="gold">simulation center</span></p>
+            <p>11,700 square feet for an <span class="gold">Anatomy Learning Center</span></p>
+            <p>6,900 square feet for a <span class="gold">flat-floor auditorium</span></p>
+            <p>5,000 square feet for <span class="gold">mechanical space</span></p>
+            <p>4,188 square feet for a <span class="gold">two-story connector link</span> to the existing medical school building</p>
+            <p>Architect is BNIM (Berkebile Nelson Immenschuh McDowell, Inc.) of Kansas City, Missouri</p>
+            <p>Construction manager is J.E. Dunn Construction Group</p>
+            <a class="ghost-button">View the 2017 Floor Plan</a>
+ </div>        
+<div class="row content">
+<div class="twelve columns">
+<h1>Frequently Asked Questions</h1>
+
+
+<!--
+<h2>About the MU School of Medicine Class Expansion</h2>
          <ul>
             <li>The project will provide more than <b>300</b> additional physicians for Missouri.</li>
             <li>The project will add more than <b>$390 million</b> annually to the state’s economy.</li>
@@ -60,9 +93,7 @@
             <li>The medical education expansion will cost approximately <b>$42.5 million</b>.</li>
             <li>The total estimated annual funding for operations, including faculty and staff salaries, training materials and education resources, is <b>$10 million</b>.</li>
          </ul>
-         <br />
          <h2>The Patient-Centered Care Learning Center</h2>
-
          <ul>
             <li>Expansion will be 97,088 square feet</li>
             <li>30,400 square feet for Patient-Based Learning (PBL) labs</li>
@@ -75,6 +106,7 @@
             <li>Architect is BNIM (Berkebile Nelson Immenschuh McDowell, Inc.) of Kansas City, Missouri</li>
             <li>Construction manager is J.E. Dunn Construction Group</li>
          </ul>
+ -->        
 
 </div></div>
 <?php include("footer.php"); ?>

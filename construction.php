@@ -5,11 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
     <title>Springfield Clinical Campus</title>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-
     <!--[if (gt IE 8) | (IEMobile)]><!-->
     <link rel="stylesheet" href="css/main.css">
     <!--<![endif]-->
@@ -18,7 +15,7 @@
     <![endif]-->
 </head>
 <body>
-	<div id="outer-wrap">
+<div id="outer-wrap">
 <div id="inner-wrap">
     <header id="top" role="banner">
         <div class="block">
@@ -29,18 +26,9 @@
         <div class="block">
             <h2 class="block-title">Chapters</h2>
             <ul>
-                <li>
-					<a href="/morephysicians/">Home</a>
-                </li><!--
-             --><li class="is-active">
-                    <a href="construction.php">Construction Live View</a>
-                </li><!--
-             --><li>
-                    <a href="news.php">News</a>
-                </li><!--
-             --><li>
-                    <a href="fast-facts.php">Fast Facts/FAQ</a>
-                </li>
+             <li><a href="/morephysicians/">Home</a></li><li class="is-active"><a href="construction.php">Construction Live View</a></li>
+             <li><a href="news.php">News</a></li>
+             <li><a href="fast-facts.php">Fast Facts/FAQ</a></li>
             </ul>
             <a class="close-btn" id="nav-close-btn" href="#top">Return to Content</a>
         </div>
@@ -54,8 +42,17 @@
 </div> <!--End Twelve Columns-->
 </div>
 
+
+
+
+
+
+
+
+
+
 <div class="stream-container">
-	<div class="stream">
+<div class="stream">
 <script>// <![CDATA[
  //Axis camera ***************************************************
  var BaseURL = "http://root:xdr56tfc@161.130.73.169/";
@@ -74,11 +71,6 @@
  // ]]></script>
 </div>
 </div>
-
-
-
-
 <?php include("footer.php"); ?>
-<script src="js/main.js"></script>
 </body>
 </html>

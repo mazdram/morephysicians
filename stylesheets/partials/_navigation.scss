@@ -74,13 +74,10 @@ table {
   border-spacing: 0;
 }
 
-ul, ol {
-  padding: 0;
-  list-style: none;
-}
 
 nav ul, ol {
   margin: 0;
+  padding-left:0px;
 }
 
 
@@ -215,7 +212,7 @@ nav a {
   background: rgba(255, 255, 255, 0.1);
 }
 #nav li.is-active a {
-  color: #222;
+  color: $gold;
 }
 
 #top {

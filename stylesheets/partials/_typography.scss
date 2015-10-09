@@ -27,10 +27,18 @@
 /* Copy & Lists */
 p {
   line-height: 1.5rem; 
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   margin-bottom: 0;
-  font-size:18px;
+  font-size:20px;
 }
+
+p#date {
+  font-style: italic;
+  line-height: 0.5rem;
+  margin-top: 1.5rem;
+  color:$grey;
+}
+
 b,
 strong {
   font-weight: bold;
@@ -43,7 +51,7 @@ ol {
 }
 ul li,
 ol li {
-  line-height: 1.5rem;
+  line-height: 2rem;
 }
 ul ul,
 ol ul,
@@ -58,6 +66,15 @@ blockquote {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
 }
+
+.hero h2 {
+  font-family: $sans-serif-thin;
+  color: #fff;
+  font-size: 2.5rem;
+  line-height: 2rem;
+  margin-top: 2rem;
+}
+
 /* Headings */ 
 h1,
 h2,
@@ -66,32 +83,45 @@ h4,
 h5,
 h6 {
   /* Change heading typefaces here */
-  font-family: $sans-serif-thin;
   margin-top: 1.5rem;
   margin-bottom: 0;
   line-height: 1.5rem;
 }
 h1 {
-  font-size: 3.5rem;
-  line-height: 4rem;
-  margin-top: 3rem;
+  font-family: $sans-serif-thin;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  margin-top: 2rem;
+  color:$gold-darker;
 }
 h2 {
-  font-size: 2.828rem;
-  line-height: 3rem;
-  margin-top: 3rem;
+  font-family: $sans-serif-bold;
+  font-size: 1.75rem;
+  line-height: 2rem;
+  margin-top: 2rem;
 }
 h3 {
-  font-size: 1.414rem;
+  font-family: $sans-serif-thin;
+  font-size: 1.5rem;
 }
 h4 {
-  font-size: 0.707rem;
+  font-family: $sans-serif-bold;
+  font-size: 1.25rem;
 }
 h5 {
-  font-size: 0.4713333333333333rem;
+  font-family: $sans-serif-thin;
+  font-size: 1.25rem;
+  color:$grey;
 }
 h6 {
-  font-size: 0.3535rem;
+  font-family: $sans-serif-thin;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+span.gold {
+  color:$gold;
+  font-family: $sans-serif-bold;
 }
 
 abbr[title] {

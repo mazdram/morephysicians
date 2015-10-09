@@ -1,7 +1,4 @@
-/*!
- *
- *  Copyright (c) David Bushell | http://dbushell.com/
- *
+/*
  */
 (function(window, document, undefined)
 {
@@ -154,3 +151,9 @@
     }
 
 })(window, window.document);
+
+
+ 
+ 
+
+

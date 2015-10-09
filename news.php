@@ -45,20 +45,24 @@
             <a class="close-btn" id="nav-close-btn" href="#top">Return to Content</a>
         </div>
     </nav>
-<body>
-<div class="row content">
+
+<div class="row">
 <div class="twelve columns">
+<h1>News</h1>
+</div></div>
 
-
+<div class="row content">
+<div class="eight columns">
 <article class="news">  
                   <h2>Gallery Doors Closing for Construction at Medical School</h2>
                   <p id="date">Posted July 30, 2015</p>
-                  <p>Due to construction of the MU School of Medicine Patient-Centered Care Learning Center, west doors at the school's Acuff Gallery will close at 8 p.m. Aug. 7 and remain closed indefinitely.</p><p>To enter the school from the west, use doors near the pathology department, south of the gallery's west entrance. The entrance south of the gallery will also allow access to the health sciences library and nursing school. North and east entrances to the gallery will remain open.Click here for a map of school entrances available after Aug. 7, with available entrances circled.</p>
+                  <p>Due to construction of the MU School of Medicine Patient-Centered Care Learning Center, west doors at the school's Acuff Gallery will close at 8 p.m. Aug. 7 and remain closed indefinitely.</p><p>To enter the school from the west, use doors near the pathology department, south of the gallery's west entrance. The entrance south of the gallery will also allow access to the health sciences library and nursing school. North and east entrances to the gallery will remain open. Click here for a map of school entrances available after Aug. 7, with available entrances circled.</p>
                </article>
 
 
-
+<article class="news">
   <h2>MU, CoxHealth and Mercy Break New Ground to Address Physician Shortage</h2>
+  <iframe width="692" height="389" src="https://www.youtube.com/embed/OeTf_oDMOQk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
                   <p id="date">Posted September 11, 2015</p>
                    <p>The University of Missouri, <a href="http://www.coxhealth.com/" target="_blank">CoxHealth</a> and <a href="https://www.mercy.net/practice/mercy-hospital-springfield" target="_blank">Mercy</a> health systems of Springfield are celebrating their partnership 
             designed to address a critical shortage of physicians in the state and nation by breaking ground for the 
@@ -66,6 +70,8 @@
             start of construction for a $42.5 million medical education building at the University of Missouri and the new 
             MU clinical campus in Springfield, Missouri.
          </p>
+         <p><a class="ghost-button">Full Story</a></p>
+         <!--
          <p>The goal of the project is to train more physicians for Missouri by expanding the class size of the MU School of 
             Medicine and adding an MU clinical campus in Springfield.
          </p>
@@ -110,13 +116,26 @@
       transform medical education in Missouri,” Loftin said. “We hope MU’s unique partnership will serve as a model for 
       other areas of the state that face shortages of health care professionals.”
    </p>
-
+-->
               
                </article>
 
 
 
-</div></div>
+</div>
+
+
+<aside class="three columns">
+<p>“Thanks to the statewide support we have received, we now have the partners, resources and talent we need to 
+      transform medical education in Missouri,” Loftin said. “We hope MU’s unique partnership will serve as a model for 
+      other areas of the state that face shortages of health care professionals.”
+   </p>
+
+</aside>
+
+
+
+</div>
 <?php include("footer.php"); ?>
 </body>
 </html>

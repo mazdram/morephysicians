@@ -13,9 +13,14 @@
     <!--[if (lt IE 9) & (!IEMobile)]>
     <link rel="stylesheet" href="css/ie.css">
     <![endif]-->
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript">
+$(function () {
+    $('.tlt').textillate();
+})
+  </script>    
 </head>
 <body>
-
 <div id="outer-wrap">
 <div id="inner-wrap">
     <header id="top" role="banner">
@@ -35,22 +40,31 @@
             <a class="close-btn" id="nav-close-btn" href="#top">Return to Content</a>
         </div>
     </nav>
+
+<div class="hero">
+    <h2 class="tlt" data-in-effect="fadeIn"><span class="gold">One</span> Campus.</h2>
+    <h2 class="tlt" data-in-effect="fadeIn"><span class="gold">Two</span> Medical Schools.</h2>
+    <h2 class="tlt" data-in-effect="fadeIn"><span class="gold">More</span> Physicians.</h2>
+    <a id="hero-button" class="ghost-button" href="fast-facts.php">Get the Facts</a>
+   </div> 
+
 <div class="content">
     <div class="row">
         <div class="twelve columns">
         <article>
-            <p>The MU School of Medicine has formed a unique partnership with CoxHealth and Mercy health systems in Springfield that will alleviate Missouri’s critical physician shortage by training more doctors to provide patient-centered care for the people of the state and beyond.</p>
-            <p>Beginning in 2016 with the opening of a second MU clinical campus in Springfield and in 2017 with the opening of the Patient-Centered Care Learning Center in Columbia, the University of Missouri will be expanding its medical school class to provide more than 300 additional physicians for Missouri.</p>
-            <p>The MU School of Medicine model explicitly focuses students’ attention on the people they are preparing to serve, and students’ clinically-based education will draw on the patient-centered care provided by CoxHealth, Mercy and University of Missouri Health Care.</p>
+            <p>The MU School of Medicine has formed a unique partnership with <a href="http://www.coxhealth.com/" target="_blank">CoxHealth</a> and <a href="https://www.mercy.net/practice/mercy-hospital-springfield" target="_blank">Mercy</a> health systems in Springfield that will alleviate Missouri’s critical physician shortage by training more doctors to provide patient-centered care for the people of the state and beyond.</p>
+            <p>Beginning in 2016 with the opening of <b>a second MU clinical campus in Springfield</b> and in 2017 with the opening of the <b>Patient-Centered Care Learning Center in Columbia</b>, the University of Missouri will be expanding its medical school class to provide more than 300 additional physicians for Missouri.</p>
+            <p>The MU School of Medicine model explicitly focuses students’ attention on the people they are preparing to serve, and students’ clinically-based education will draw on the patient-centered care provided by CoxHealth, Mercy and <a href="http://muhealth.org" target="_blank">University of Missouri Health Care</a>.</p>
             <p>MU’s unique partnership will serve as a model for other areas of the state — and nation — that face shortages of health care professionals.</p>
         </article>
         </div>
     </div>
 </div>
+
+
+
 <?php include("footer.php"); ?>
 </div>
-<!--/#inner-wrap-->
 </div>
-<!--/#outer-wrap-->
 </body>
 </html>
